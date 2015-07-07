@@ -1,4 +1,19 @@
 Rails.application.routes.draw do
+  resources :car_files
+  get 'car_files/index'
+
+  get 'car_files/show'
+
+  get 'car_files/edit'
+
+  get 'car_files/create'
+
+  get 'car_files/destroy'
+
+  get 'car_files/new'
+
+  get 'car_files/update'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
